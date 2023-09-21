@@ -35,7 +35,7 @@ reseal_on_txs = "none"
 
 ```
 5. Stake
-
+    
     Stake
 
     To stake MBC coin, all you should do is sending your MBC coin to the MBC Consensus contract address over the MBC network from the validator address.
