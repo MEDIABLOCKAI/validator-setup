@@ -26,7 +26,7 @@ password = ["password"]
 [mining]
 force_sealing = true
 engine_signer = "0x00aa39d30f0d20ff03a22ccfc30b7efbfca597c2"
-reseal_on_txs = "none"
+reseal_on_txs = "none"    
 ...
 ```
 4. Run the authority nodes
