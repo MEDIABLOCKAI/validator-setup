@@ -34,8 +34,8 @@ reseal_on_txs = "none"
     Stake
 
     To stake MBC coin, all you should do is sending your MBC coin to the MBC Consensus contract address over the MBC network from the validator address.
-    The MBC Consensus contract address: 0x07C53925485179505e1189021c8f794A2A16da54
-    The easiest way to do so, is to import your private key or key-store file to your favourite wallet (for example Metamask), switch network to YES and send the YES coin to the Consensus contract address.
+    The MBC Consensus contract address: 0x7eFb6A569C57e2c40DCa3533b47B3EC9ce69529f
+    The easiest way to do so, is to import your private key or key-store file to your favourite wallet (for example Metamask), switch network to MBC and send the MBC coin to the Consensus contract address.
 
     You can find your key-store (containing your private key) and the password for the created account in:
     /node/keys/MBC/UTC--xxxx
