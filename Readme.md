@@ -1,6 +1,6 @@
 # Run a MBC Validator
 ## Setting up a node
-1. Git clone https://github.com/navisharma007aus/validator-setup.git
+1. Git clone https://github.com/MEDIABLOCKAI/validator-setup
 
 ```
 3. Create an Account
