@@ -2,16 +2,13 @@
 ## Setting up a node
 1. Git clone https://github.com/navisharma007aus/validator-setup.git
 
-2. Copy source form miner-setup to root folder
-```
-cp -r ValidatorSetup/miner-setup/MBC/root/
 ```
 3. Create an Account
 
 ```
-cd /root/MBC
+
 chmod +x openethereum
-./openethereum account new --config nodes/validator/node.toml
+./openethereum account new --config ./node.toml
 ```
 Returned address like that 0x00aa39d30f0d20ff03a22ccfc30b7efbfca597c2
 
@@ -20,8 +17,7 @@ Ex:
 ```
 ...
 [account]
-unlock = ["0x00aa39d30f0d20ff03a22ccfc30b7efbfca597c2"]
-password = ["password"]
+password = ["node.pwd"]
 
 [mining]
 force_sealing = true
@@ -31,7 +27,7 @@ reseal_on_txs = "none"
 ```
 4. Run the authority nodes
 ```
-./openethereum --config ./nodes/validator/node.toml
+./openethereum --config ./node.toml
 
 ```
 5. Stake
@@ -43,8 +39,8 @@ reseal_on_txs = "none"
     The easiest way to do so, is to import your private key or key-store file to your favourite wallet (for example Metamask), switch network to MBC and send the MBC coin to the Consensus contract address.
 
     You can find your key-store (containing your private key) and the password for the created account in:
-    /MBC/nodes/validator/keys/MBC/UTC--xxxx
-    /MBC/nodes/validator/node.pwd
+    /node/keys/MBC/UTC--xxxx
+    node.pwd
 
 6. Wait for 1 cycle (approximately 48 hours).
 
